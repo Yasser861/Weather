@@ -1,0 +1,81 @@
+
+.navbar-nav{
+    color: white !important;
+}
+nav ul li{
+    width: 120px;
+    text-align: center;
+    margin: 0 5px;
+}
+nav ul li:hover a{
+    color: aqua !important;
+}
+section{
+    background-image: url(../images/banner.png);
+    background-size: 100% 50%;
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-color:rgb(30, 32, 43) ;
+}
+section .container input{
+    outline: none;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    border: none;
+}
+section .secSub{
+    background-color: #1e202b;
+}
+section .row .today .date{
+    background-color:rgb(45, 48, 61) ;
+    color: grey;
+}
+section .row .weather{
+    background-color:rgb(50, 53, 68) ;
+    color: grey;
+}
+section .row .weather h1{
+    font-size: 75px;
+}
+section .row .wind{
+    background-color:rgb(50, 53, 68) ;
+    color: grey;
+}
+section .row .secondDay{
+    background-color:rgb(38, 41, 54) ;
+    color: grey;
+}
+section .row .secondDay .date{
+    background-color: #222530;
+}
+section .row .thirdDay{
+    background-color:rgb(50, 53, 68) ;
+    color: grey;
+}
+section .row .thirdDay .date{
+    background-color:rgb(45, 48, 61);
+}
+/* ----------------------------------------------------- */
+footer{
+    background-color: #262936;
+}
+footer input{
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    border: none;
+    outline: none;
+}
+footer .footSub{
+    background-color: #1e202b;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer ul li a i{
+    border-radius: 50%;
+    background-color: #1e202b;
+    width: 40px;
+    height: 40px;
+}

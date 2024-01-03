@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Weather,website">
+    <meta name="description" content="website has Weather">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg py-5 bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white fs-3" href="#"><i class="fa-solid fa-cloud text-info fs-1"></i>
+                Weather</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item border border-info rounded-pill">
+                        <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="overflow-hidden py-5">
+        <div class="container">
+            <div class="secSub d-flex mt-5  rounded-pill py-1">
+                <input class="w-100" type="text" placeholder="Find your Location...">
+                <button class="btn btn-info rounded-pill me-2">Find</button>
+            </div>
+            <div class="row mt-4 g-0">
+                <div class="col-md-4">
+                    <div class="today">
+                        <div class="date d-flex justify-content-between container">
+                            <p id="day">sunday</p>
+                            <p id="date">31 December</p>
+                        </div>
+                        <div class="weather text-white">
+                            <p class="ms-4 pt-1 fs-5">Cairo</p>
+                            <div class="temp d-flex justify-content-between ms-2">
+                                <h1 class="d-inline-block">15 C</h1>
+                                <img class=" w-25" alt="icon">
+                                <br>
+                            </div>
+                            <span class="text-info ms-3">Mist</span>
+                        </div>
+                        <div class="wind d-flex justify-content-between container pt-4 mb-2">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-umbrella fs-4 me-1"></i>
+                                <p id="chanceOfRain">20%</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-wind fs-4 me-1"></i>
+                                <p>20%</p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-stopwatch-20 fs-4 me-1"></i>
+                                <p>20%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="secondDay">
+                        <div class="date d-flex justify-content-center container">
+                            <p id="Second">Monday</p>
+                        </div>
+                        <div class=" text-white text-center">
+                            <img id="secondIcon" class=" mt-2" alt="icon">
+                            <h3 class="d-block text-center pt-4">20.7*C</h3>
+                            <p class="m-0 d-block text-center">13.3*</p>
+                        </div>
+                        <div class=" d-flex justify-content-center align-items-center container">
+                            <span class="text-info">Sunny</span>
+                            <br><br><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thirdDay">
+                        <div class="date d-flex justify-content-center container">
+                            <p>Tuesday</p>
+                        </div>
+                        <div class=" text-white text-center">
+                            <img id="secondIcon" class=" mt-2" alt="icon">
+                            <h3 class="d-block text-center pt-4">20.7*C</h3>
+                            <p class="m-0 d-block text-center">13.3*</p>
+                        </div>
+                        <div class=" d-flex justify-content-center align-items-center container">
+                            <span class="text-info">Sunny</span>
+                            <br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="overflow-hidden pt-4">
+        <div class="container-fluid subscribe d-flex justify-content-between">
+            <div class="footSub d-flex w-50 rounded-end-5 py-1 ms-4">
+                <input type="text" class="w-100" placeholder="Enter your Email to Subscribe....">
+                <button class="btn btn-info text-white rounded-pill me-1">Subscribe</button>
+            </div>
+            <ul class="w-25 d-flex list-unstyled justify-content-end mt-2 me-5 ">
+                <li><a href=""><i class="me-1 d-flex justify-content-center align-items-center fa-brands fa-facebook-f fs-5 text-info "></i></a></li>
+                <li><a href=""><i class="me-1 d-flex justify-content-center align-items-center fa-brands fa-twitter fs-5 text-info "></i></a></li>
+                <li><a href=""><i class="me-1 d-flex justify-content-center align-items-center fa-brands fa-google-plus fs-5 text-info "></i></a></li>
+                <li><a href=""><i class="me-1 d-flex justify-content-center align-items-center fa-brands fa-pinterest fs-5 text-info "></i></a></li>
+            </ul>
+        </div>
+        <p class="text-white mt-5 container">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
