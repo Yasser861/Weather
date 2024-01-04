@@ -116,5 +116,3 @@ window.addEventListener('load',function(){
 searchInput.addEventListener('input',function(){
     getWeather(searchInput.value.toLowerCase());
 });
-//=======================================================
-console.log(document.querySelector('section .row .secondDay img').src);
